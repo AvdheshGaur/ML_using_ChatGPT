@@ -1,0 +1,11 @@
+I am working with a dataset named df (already available), which contains the following columns:
+   Area_Sq_ft
+   Age_years
+   Price_Lacks (target feature)
+
+Can you please help me write a Python code that creates a regression model on this data to predict the Price_Lacks? The steps are as follows:
+
+1) Split the data into training and test sets.
+2) Visualize the relationship between the input features (Area_Sq_ft and Age_years) and the target feature (Price_Lacks) using scatter plots on the training data.
+3) Implement a linear regression model and evaluate it on the test data by calculating appropriate evaluation metrics (e.g., RMSE, R-squared).
+4) Plot the regression plane with the data using a single scatter plot of Area_Sq_ft and Age_years	plotly.express and plotly.graph_objects as go
